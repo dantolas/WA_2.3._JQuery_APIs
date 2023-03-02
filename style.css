@@ -1,0 +1,19 @@
+#responseDiv{
+    overflow: scroll;
+}
+
+#table{
+    width: fit-content;
+
+}
+
+
+#table th{
+    background-color: aliceblue;
+    margin-left: 2px;
+    padding: 1px;
+}
+
+#table td{
+    background-color: antiquewhite;
+}
