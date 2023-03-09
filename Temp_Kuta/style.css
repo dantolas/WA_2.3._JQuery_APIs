@@ -1,0 +1,43 @@
+
+body{
+    font-family: 'Golos Text', sans-serif;
+}
+.container{
+    font-family: 'Golos Text', sans-serif;
+}
+#responseDiv{
+    overflow: hidden;
+}
+
+#table{
+    width: fit-content;
+
+}
+
+#errorMessage{
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius:  4px;
+    border: 1px solid darkgray;
+    background-color: whitesmoke;
+    padding: 2px;
+    width: max-content; 
+}
+
+#remove{
+    text-align: center;
+    font-size: x-small;
+    margin-left: 25px;
+}
+
+#search{
+    z-index: 10;
+    cursor: pointer;
+    padding: 2px;
+    margin-left: 2px;
+}
+
+#search:hover{
+    background-color: darkslateblue;
+}
